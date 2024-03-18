@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <script>
+        const data = {  name:"viral",
+    mobileNum:8780177560,
+    gender:"male",
+    email:"viralchahan4438@gmail.com"}
+
+    fetch("http://127.0.0.1:3000/", {
+    method : "post",
+    body : JSON.stringify(data),
+    headers : {"content-type":"application/json"}
+    
+});
+then(()=>{
+    res.send("njhfe")
+})
+    </script>
+</body>
+</html>
